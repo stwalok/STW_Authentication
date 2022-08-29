@@ -1,0 +1,20 @@
+.login-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    .login-container{
+        width: 300px;
+        .login-content {
+            min-height: 274px;
+            .hedding{
+                h3{
+                    font-size: 3rem;
+                    text-align: center;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
